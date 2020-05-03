@@ -2,12 +2,15 @@
 
 Ingest data from https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j
 and stage data to S3
+
 Create schema in Postgres
+
 Read CSV-File from S3
+
 Sanitize/transform
-Save data into Fact/Dimension tables in Postgres
 
 Save data into Fact/Dimension tables in Postgres
+
 
 ## Configuration
 
