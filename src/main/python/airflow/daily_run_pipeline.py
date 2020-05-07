@@ -15,7 +15,7 @@ from airflow.operators.dummy_operator import DummyOperator
 from airflow.operators.python_operator import PythonOperator
 
 default_args = {
-    'owner': 'robnewman',
+    'owner': 'assamese',
     'depends_on_past': False,
     'start_date': datetime(2020, 5, 3),
     'email': ['sanjay@sanjaydas.com'],
